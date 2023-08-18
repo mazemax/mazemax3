@@ -18,6 +18,9 @@ const nextConfig = {
     publicRuntimeConfig: {
         // Will be available on both server and client
         publicFolder: '/public'
+    },
+    images: {
+        unoptimized: true
     }
 }
 
