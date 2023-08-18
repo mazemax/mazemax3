@@ -86,7 +86,7 @@ import {
             </FormItem>
   
             <FormItem label="DatePicker">
-              <DatePicker showTime onChange={onDatePickerChange} />
+              {/* <DatePicker showTime onChange={onDatePickerChange} /> */}
             </FormItem>
             <FormItem style={{ marginTop: 48 }} wrapperCol={{ offset: 8 }}>
               <Button type="primary" htmlType="submit">
