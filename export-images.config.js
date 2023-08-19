@@ -3,7 +3,8 @@
  */
 const config = {
     outDir: 'out',
-    imageDir: 'images', 
+    imageDir: 'images',
+    basePath: '/mazemax3',
     filenameGenerator: ({ path, name, width, quality, extension }) =>
         `${path.replace(/^\//, '').replace(/\//g, '-')}/${name}.${extension}`,
     convertFormat: [

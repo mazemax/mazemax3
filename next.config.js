@@ -21,8 +21,7 @@ const nextConfig = {
         publicFolder: '/public'
     },
     images: {
-        minimumCacheTTL: 60,
-        formats: ['image/avif', 'image/webp']
+        minimumCacheTTL: 60
     }
 }
 
