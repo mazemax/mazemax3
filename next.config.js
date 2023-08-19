@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+const withExportImages = require('next-export-optimize-images')
 
 const nextConfig = {
     basePath: '/mazemax3',
@@ -20,8 +21,9 @@ const nextConfig = {
         publicFolder: '/public'
     },
     images: {
-        unoptimized: true
+        minimumCacheTTL: 60,
+        formats: ['image/avif', 'image/webp']
     }
 }
 
-module.exports = nextConfig
+module.exports = withExportImages(nextConfig)

@@ -27,6 +27,8 @@ export default function Portfolio() {
                     <h3 className='bg-zinc-500 text-white text-center leading-4 h-100'>
                         <Image
                             src={MvFreeCourses}
+                            width="1898" 
+                            height="1082"
                             loading="lazy"
                             placeholder="blur"
                             className='w-auto m-auto h-44 md:h-124'
@@ -37,6 +39,8 @@ export default function Portfolio() {
                     <h3 className='bg-zinc-500 text-white text-center leading-4 h-100'>
                         <Image
                             src={MvSpirituality}
+                            width="1187" 
+                            height="800"
                             loading="lazy"
                             placeholder="blur"
                             className='w-auto m-auto h-48 md:h-124'
@@ -47,6 +51,8 @@ export default function Portfolio() {
                     <h3 className='bg-zinc-500 text-white text-center leading-4 h-100'>
                         <Image
                             src={MvU}
+                            width="523" 
+                            height="800"
                             loading="lazy"
                             placeholder="blur"
                             className='w-auto m-auto h-48 md:h-124'
@@ -57,6 +63,8 @@ export default function Portfolio() {
                     <h3 className='bg-zinc-500 text-white text-center leading-4 h-100'>
                         <Image
                             src={MvAffiliateSignup}
+                            width="1198" 
+                            height="800"
                             loading="lazy"
                             placeholder="blur"
                             className='w-auto m-auto h-48 md:h-124'
@@ -67,6 +75,8 @@ export default function Portfolio() {
                     <h3 className='bg-zinc-500 text-white text-center leading-4 h-100'>
                         <Image
                             src={Squarefoot}
+                            width="1351" 
+                            height="768"
                             loading="lazy"
                             placeholder="blur"
                             className='w-full h-full'
@@ -77,6 +87,8 @@ export default function Portfolio() {
                     <h3 className='bg-zinc-500 text-white text-center leading-4 h-100'>
                         <Image
                             src={ThinkOfLiving}
+                            width="1340" 
+                            height="768"
                             loading="lazy"
                             placeholder="blur"
                             className='w-full h-full'
@@ -87,6 +99,8 @@ export default function Portfolio() {
                     <h3 className='bg-zinc-500 text-white text-center leading-4 h-100'>
                         <Image
                             src={Huddle}
+                            width="2880" 
+                            height="1401"
                             loading="lazy"
                             placeholder="blur"
                             className='w-full h-full'
