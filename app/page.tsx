@@ -243,14 +243,14 @@ export default function Home() {
       </Space>
 
       { /* Google tag (gtag.js) */ }
-      <Script src="https://www.googletagmanager.com/gtag/js?id=UA-75764018-1" />
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-KW3LN92T8H" />
       <Script id="google-analytics">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
  
-          gtag('config', 'UA-75764018-1');
+          gtag('config', 'G-KW3LN92T8H');
         `}
       </Script>
       </div>
