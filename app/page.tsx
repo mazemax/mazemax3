@@ -3,6 +3,7 @@
 // import nextLogo from '../public/next.svg'
 'use client'
 import Link from 'next/link'
+import Script from 'next/script'
 import React, { useState } from 'react'
 import { Layout, Space, Button, Col, Row, Typography, Menu, Drawer, FloatButton } from 'antd'
 import { Header, Content, Footer } from 'antd/es/layout/layout'
@@ -240,6 +241,18 @@ export default function Home() {
           </Footer>
         </Layout>
       </Space>
+
+      { /* Google tag (gtag.js) */ }
+      <Script src="https://www.googletagmanager.com/gtag/js?id=UA-75764018-1" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'UA-75764018-1');
+        `}
+      </Script>
       </div>
     )
   } catch(e) {

@@ -3,7 +3,7 @@
  */
 const config = {
     basePath: '/mazemax3',
-    outDir: 'export',
+    outDir: 'out',
     convertFormat: [
         ['png', 'webp'],
         ['jpg', 'avif'],
