@@ -16,8 +16,8 @@ export default function MiddleCta() {
                             icon={<DownloadOutlined />} 
                             size='large' 
                             className='mx-auto sm:mt-2'
-                            href='https://github.com/mazemax/resume/raw/main/Saad_CV_2020_V4.0.pdf' 
-                            download={true}
+                            href='https://drive.google.com/file/d/10Ud0OdwO4HfLPGMcS0tlickbUq3v3ICY/view?usp=sharing' 
+                            target='_blank'
                     >
                         Download
                     </Button>

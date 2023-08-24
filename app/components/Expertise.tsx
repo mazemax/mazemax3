@@ -23,7 +23,7 @@ export default function Expertise() {
         <>
             <Card
                 hoverable
-                title="Recent Tech Stack" 
+                title="Recent Tools" 
                 bordered={false}
             >
                 <Row gutter={[16, 24]}>

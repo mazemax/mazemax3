@@ -1,6 +1,3 @@
-// import Image from 'next/image'
-// import vercelLogo from '../public/vercel.svg'
-// import nextLogo from '../public/next.svg'
 'use client'
 import Link from 'next/link'
 import Script from 'next/script'
@@ -144,7 +141,7 @@ export default function Home() {
             <Layout className='py-6 px-0 bg-gray-100'>
               <FloatButton.Group shape="circle" style={{ right: 24 }}>
                 <FloatButton icon={<DownloadOutlined />} tooltip='Download CV'
-                              href='https://github.com/mazemax/resume/raw/main/Saad_CV_2020_V4.0.pdf' 
+                              href='https://drive.google.com/file/d/10Ud0OdwO4HfLPGMcS0tlickbUq3v3ICY/view?usp=sharing' 
                               target='_blank' />
                 <FloatButton icon={<LinkedinOutlined />} tooltip='Visit LinkedIn'
                               href='https://www.linkedin.com/in/msaadsiddiqui'

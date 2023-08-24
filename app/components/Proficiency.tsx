@@ -16,7 +16,7 @@ export default function Proficiency() {
     return (
         <Card 
             hoverable
-            title="Previous Tech Stack" 
+            title="Previous Tools" 
             bordered={false}
         >
             <Row gutter={[16, 24]}>
